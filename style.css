@@ -331,3 +331,171 @@ main{
     bottom: 30.8em;
   }
 }
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .back-design{
+    left: -20em;
+    top: -40em;
+  }
+
+  .back-design-one{
+    width: 24em;
+    height: 48em;
+ }
+
+  .phone{
+    width: 24.7em;
+    left: 25em;
+    top: 6em;
+  }
+
+  .text{
+    width: 44.5em;
+    height: 18.3em;
+    left: 55em;
+    right: 26em;
+    top: 24em;
+    bottom: 30.8em;
+  }
+  
+  .text h1{
+    font-size: 2rem;
+  }
+
+  .text p{
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .back-design{
+    left: -15em;
+    top: -30em;
+  }
+
+  .back-design-one{
+    width: 34em;
+    height: 58em;
+    top: 44.5em; 
+ }
+
+  .phone{
+    width: 24.7em;
+    left: 25em;
+    top: 6em;
+  }
+
+  .text{
+    width: 40em;
+    height: 23.9em;
+    left: 15em;
+    top: 68em;
+    margin: 0 auto;
+  }
+
+  .text p,
+  .text h1{
+    text-align: center;
+  }
+
+  .text p{
+    font-size: 1rem;
+  }
+
+  .text h1{
+    font-size: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+
+  .back-design{
+    left: -30em;
+    top: -30em;
+  }
+
+  .back-design-one{
+    width: 14em;
+    height: 38em;
+    top: 44.5em; 
+ }
+
+  .phone{
+    width: 24.7em;
+    left: 6.58em;
+    top: 5.5em;
+  }
+
+  .text{
+    width: 25em;
+    height: 23.9em;
+    left: 6em;
+    top: 580px;
+    margin: 0 auto;
+  }
+
+  .text h1{
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 47px;
+    color: #3E2753;
+    text-align: center;
+  }
+
+  .text p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 28px;
+    color: #A39DA9;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 319px) {
+  .back-design{
+    left: -35em;
+    top: -41.8em;
+  }
+
+  .back-design-one{
+    width: 104em;
+    height: 38em;
+    top: 44.5em; 
+ }
+
+ .phone{
+  width: 24.7em;
+  left: 1.5em;
+  top: 5.5em;
+ }
+
+ .text{
+  width: 25em;
+  height: 23.9em;
+  left: 2em;
+  top: 580px;
+  margin: 0 auto;
+}
+
+.text h1{
+  font-weight: 500;
+  font-size: 1.22rem;
+  line-height: 47px;
+  color: #3E2753;
+  text-align: center;
+}
+
+.text p{
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 28px;
+  color: #A39DA9;
+  text-align: center;
+}
+
+
+}
+
