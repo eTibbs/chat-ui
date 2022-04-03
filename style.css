@@ -1,0 +1,333 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik', sans-serif;
+  font-size: 62.5%;
+}
+
+main{
+  width: 100%;
+  height: 100vh;
+}
+
+.back-design {
+  width: 51em;
+  height: 90em;
+  background-image: linear-gradient(to right, #E844FF, #8739FF);
+  border-radius: 25.6em;
+  position: absolute;
+  left: -9em;
+  top: -31.8em;
+}
+
+
+.back-design-one{
+  width: 23%;
+  height: 50em;
+  border-top-left-radius: 18.4375em;
+  border-top-right-radius: 0px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+  opacity: 0.03;
+  z-index: -5;
+}
+
+
+.phone{
+  width: 24.7em;
+  height: 52em;
+  position: absolute;
+  left: 36.3em;
+  top: 7.8em;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 30px;
+  padding: 1.1em 0.95em;
+}
+
+.screen{
+  width: 22.8em;
+  height: 48.3em;
+  background-color: #F5F3F7;
+  border-radius: 20px;
+}
+
+.rectangle{
+  width: 55%;
+  height: 1.5em;
+  margin-left: 4.9em;
+  border-radius: 0 0 14px 14px;
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-header{
+  width: 92%;
+  height: 6.6em;
+  background-image: linear-gradient(#E844FF, #8739FF);
+  position: absolute;
+  top: 1.1em;
+  border-radius: 20px 20px 6px 6px;
+  z-index: 0;
+  
+}
+
+.contact{
+  width: 19.6em;
+  height: 2.4em;
+  margin-left: 1.55em;
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.profile-icon{
+  height: 2.4em;
+  width: 2.4em;
+  
+}
+
+.profile-icon img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.contact-name{
+  display: flex;
+  width: 7.4em;
+  height: 2.4em;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.contact-info{
+  width: 80%;
+  height: 2.;
+  display: flex;
+  margin-left: 8px;
+}
+
+.oval{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 7.8em;
+}
+
+.oval-copy{
+  width: 0.2em;
+  height: 0.2em;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  margin-bottom: 0.2em;
+}
+
+.name{
+  font-size: 0.6rem;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.status{
+  color: #D99EFF;
+  font-size: 8px;
+}
+.message-screen{
+  position: absolute;
+  top: 7.2em;
+  margin-top: 3em;
+  max-height: 18em;
+}
+
+.message{
+  width: 16em;
+  background-color: #EEE5F4;
+  color: #9341C8;
+  border-radius: 4px 10px 10px 10px;
+  font-size: 0.52rem;
+  margin-left: 0.75em;
+  padding: 0.6em;
+  line-height: 1.1em;
+  margin-bottom: 1.8em;
+}
+
+
+.dog-part{
+  margin-left: 9.2em;
+  width: 13.6em;
+  margin-top: 0.8em;
+}
+
+.dog-img{
+  display: flex;
+  width: 4em;
+  height: 4em;
+  justify-content: space-between;
+}
+
+.dog-img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.first-dog-img{
+  margin-right: 0.5em;
+}
+
+.recipient-message{
+  background-color: #FFFFFF;
+  color: #6E5D7E;
+  margin-right: 0.75em;
+  margin-top: 1.2em;
+  border-radius: 10px 10px 4px 10px;
+  font-size: 0.52rem;
+  padding: 0.8em;
+  line-height: 1.1em;
+}
+
+.recipient-message-one{
+  width: 60%;
+  background-color: #FFFFFF;
+  color: #6E5D7E;
+  margin-right: 0.7em;
+  margin-left: 5.75em;
+  margin-top: 1.2em;
+  border-radius: 10px 10px 4px 10px;
+  font-size: 0.52rem;
+  padding: 0.6em;
+}
+
+
+.text{
+  width: 28%;
+  max-height: 18em;
+  position: absolute;
+  left: 80em;
+  right: 26em;
+  top: 24em;
+  bottom: 30.8em;
+}
+
+.text h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 47px;
+  color: #3E2753;
+}
+
+.text p{
+  font-style: normal;
+  font-weight: 400;
+  color: #A39DA9;
+  line-height: 28px;
+  font-size: 1rem;
+}
+
+.rates{
+  width: 70%;
+}
+
+.first-rate{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.7em;
+  background-image: linear-gradient(#E844FF, #8739FF);
+  height: 3.2em;
+  border-radius: 4px 10px 10px 10px;
+  padding: 0.8em;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+
+.rate-oval{
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  border: 1px solid #E844FF;
+}
+
+.time{
+  font-size: 0.5rem;
+  margin-left: 0.8em;
+  color: #FFFFFF;
+  width: 5.7em;
+}
+
+.price{
+  font-size: 0.8rem;
+  margin-left: 3.5em;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.chat{
+  width: 21.3em;
+  height: 3.4em;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border-radius: 16.95px;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chat-placeholder{
+  font-size: 0.5rem;
+  margin-left: 2em;
+  color: #C5C9CC;
+}
+
+.send{
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 50%;
+  background-color: #3E2753;
+  margin-right: 5px;
+}
+
+.send img{
+  width: 0.6em;
+  margin-left: 1em;
+  margin-top: 0.8em;
+}
+
+@media only screen and (max-width: 608px){
+
+  .back-design{
+    left: -15em;
+    top: -40.9em;
+  }
+
+  .back-design-one{
+    width: 24em;
+    height: 48em;
+ }
+
+  .phone{
+    width: 24.7em;
+    left: 65em;
+    top: 0.6em;
+  }
+
+  .text{
+    width: 44.5em;
+    height: 18.3em;
+    left: 75em;
+    right: 26em;
+    top: 24em;
+    bottom: 30.8em;
+  }
+}
